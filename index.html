@@ -655,10 +655,6 @@
         <!-- Controls: Intensity Mode -->
         <div id="intensity-controls" class="control-panel-inner">
           <div class="timeline-slider-wrap">
-            <div class="slider-header">
-              <span class="control-label"><strong id="decade-label" class="highlight-val">1920s</strong></span>
-              <span id="era-description" class="era-tag">Electrification & Mass Production Wave</span>
-            </div>
             <div class="slider-row">
               <button id="play-btn" class="btn-play" onclick="togglePlayDecades()">
                 <span id="play-icon">▶</span> <span id="play-text">Play Timeline</span>
@@ -723,9 +719,22 @@
           
           <div class="network-decade-bar">
             <div class="network-decade-slider-wrap">
-              <input type="range" id="net-decade-slider" min="0" max="10" value="5" step="1" oninput="onNetDecadeSlider(this.value)">
+              <input type="range" id="net-decade-slider" min="0" max="13" value="8" step="1" oninput="onNetDecadeSlider(this.value)">
               <div class="net-decade-ticks">
-                <span>Pre-1836</span><span>1880s</span><span>1890s</span><span>1900s</span><span>1910s</span><span>1920s</span><span>1930s</span><span>1940s</span><span>1950s</span><span>1960s</span><span>1970s</span>
+                <span style="left: 0%;">1840s</span>
+                <span style="left: 7.69%;">1850s</span>
+                <span style="left: 15.38%;">1860s</span>
+                <span style="left: 23.08%;">1870s</span>
+                <span style="left: 30.77%;">1880s</span>
+                <span style="left: 38.46%;">1890s</span>
+                <span style="left: 46.15%;">1900s</span>
+                <span style="left: 53.85%;">1910s</span>
+                <span style="left: 61.54%;" class="active-tick">1920s</span>
+                <span style="left: 69.23%;">1930s</span>
+                <span style="left: 76.92%;">1940s</span>
+                <span style="left: 84.62%;">1950s</span>
+                <span style="left: 92.31%;">1960s</span>
+                <span style="left: 100%;">1970s</span>
               </div>
             </div>
           </div>

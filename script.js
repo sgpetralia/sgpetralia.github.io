@@ -342,8 +342,8 @@ const ERA_INSIGHTS = {
 let isClearpatModalOpen = false;
 let currentExplorerMode = 'intensity'; // 'intensity' | 'citations' | 'inventors'
 let currentDecadeIndex = 13; // 1920s (index 13 of 19 decades from 1790s to 1970s)
-let currentNetworkDecadeIndex = 5; // 1920s (index 5 of NETWORK_DECADES)
-const NETWORK_DECADES = ['Pre-1836', '1880s', '1890s', '1900s', '1910s', '1920s', '1930s', '1940s', '1950s', '1960s', '1970s'];
+let currentNetworkDecadeIndex = 8; // 1920s (index 8 of NETWORK_DECADES: 1840s to 1970s)
+const NETWORK_DECADES = ['1840s', '1850s', '1860s', '1870s', '1880s', '1890s', '1900s', '1910s', '1920s', '1930s', '1940s', '1950s', '1960s', '1970s'];
 let isPlaying = false;
 let playInterval = null;
 let selectedCitationState = 'CA';
@@ -525,8 +525,10 @@ function renderCurrentDecade() {
   const topInfo = CLEARPAT_DATA.decades_top_state[decade] || {};
 
   // Labels
-  document.getElementById('decade-label').textContent = decade;
-  document.getElementById('era-description').textContent = ERA_DESCRIPTIONS[decade] || '';
+  const dl = document.getElementById('decade-label');
+  if (dl) dl.textContent = decade;
+  const ed = document.getElementById('era-description');
+  if (ed) ed.textContent = ERA_DESCRIPTIONS[decade] || '';
   document.getElementById('kpi-total').textContent = totalInDecade.toLocaleString();
   document.getElementById('sidebar-decade').textContent = decade;
   
@@ -1111,6 +1113,11 @@ function onNetDecadeSlider(val) {
   const decade = NETWORK_DECADES[currentNetworkDecadeIndex] || '1920s';
   const lbl = document.getElementById('net-decade-label');
   if (lbl) lbl.textContent = decade;
+
+  const ticks = document.querySelectorAll('.net-decade-ticks span');
+  ticks.forEach((t, i) => {
+    t.classList.toggle('active-tick', i === currentNetworkDecadeIndex);
+  });
 
   selectedFirmIndex = 0;
   activeNetworkNodeId = null;

@@ -2830,15 +2830,32 @@ a:hover {
   margin: 0;
 }
 
+.network-decade-slider-wrap {
+  width: 100%;
+  position: relative;
+}
+
 .net-decade-ticks {
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.66rem;
+  position: relative;
+  width: calc(100% - 16px);
+  margin: 6px 8px 0 8px;
+  height: 16px;
+}
+
+.net-decade-ticks span {
+  position: absolute;
+  transform: translateX(-50%);
+  font-size: 0.68rem;
   color: var(--text-muted);
   font-family: var(--font-mono, monospace);
-  padding: 0 2px;
-  margin-top: 0.05rem;
   line-height: 1;
+  white-space: nowrap;
+  transition: color 0.15s ease, font-weight 0.15s ease;
+}
+
+.net-decade-ticks span.active-tick {
+  color: var(--color-primary, #3b82f6);
+  font-weight: 700;
 }
 
 #network-graph-svg {
