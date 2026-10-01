@@ -2845,12 +2845,20 @@ a:hover {
 .net-decade-ticks span {
   position: absolute;
   transform: translateX(-50%);
-  font-size: 0.68rem;
+  font-size: 0.65rem;
   color: var(--text-muted);
   font-family: var(--font-mono, monospace);
   line-height: 1;
   white-space: nowrap;
   transition: color 0.15s ease, font-weight 0.15s ease;
+}
+
+.net-decade-ticks span:first-child {
+  transform: translateX(-15%);
+}
+
+.net-decade-ticks span:last-child {
+  transform: translateX(-85%);
 }
 
 .net-decade-ticks span.active-tick {
