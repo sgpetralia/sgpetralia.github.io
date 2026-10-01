@@ -149,20 +149,20 @@
 
     const maxPatents = Math.max(...allProjects.map(p => p.patentsCount), 1);
 
-    // Build Left Column: Category Pills Bar + Projects List
+    // Build Stage: Full-width Category Pills Bar (spanning over both columns and individual project tile) + Projects List + Sidebar Dossier
     let leftHtml = `
-      <div class="gitpat-main-col">
-        <!-- Category Filter Pills Bar (No Search Bar, No Intro Banner) -->
-        <div class="gitpat-controls-row" style="background: transparent; border: none; padding: 0.2rem 0; margin-bottom: 0.1rem;">
-          <div class="gitpat-cat-pills">
-            ${(data.categories || ['All Infrastructure']).map(cat => `
-              <button class="gitpat-cat-pill ${state.projectCategory === cat ? 'active' : ''}" data-cat="${cat}" onclick="filterGitpatProjectCategory('${cat}')">
-                ${cat}
-              </button>
-            `).join('')}
-          </div>
+      <!-- Category Filter Pills Bar (All in 1 line, spanning full width over individual project tile) -->
+      <div class="gitpat-controls-row gitpat-projects-cat-bar">
+        <div class="gitpat-cat-pills">
+          ${(data.categories || ['All Infrastructure']).map(cat => `
+            <button class="gitpat-cat-pill ${state.projectCategory === cat ? 'active' : ''}" data-cat="${cat}" onclick="filterGitpatProjectCategory('${cat}')">
+              ${cat}
+            </button>
+          `).join('')}
         </div>
+      </div>
 
+      <div class="gitpat-main-col">
         <!-- Project Cards Grid -->
         <div class="gitpat-projects-list">
           ${filteredProjects.map((p, idx) => {

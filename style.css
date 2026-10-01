@@ -3191,10 +3191,33 @@ body.standalone-explorer-page {
   border: 1px solid var(--border-light);
 }
 
+.gitpat-projects-cat-bar {
+  grid-column: 1 / -1;
+  width: 100%;
+  background: transparent !important;
+  border: none !important;
+  padding: 0 0 0.35rem 0 !important;
+  margin: 0 !important;
+}
+
+.gitpat-stage.mode-projects {
+  row-gap: 0.75rem !important;
+  column-gap: 1.5rem !important;
+}
+
 .gitpat-cat-pills {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem;
+  flex-wrap: nowrap;
+  gap: 0.45rem;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  padding-bottom: 2px;
+}
+.gitpat-cat-pills::-webkit-scrollbar {
+  display: none;
 }
 
 .gitpat-inv-firm-pills {
