@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PAT2TM Concordance Explorer | Dr. Sergio Gabriel Petralia</title>
+  <meta name="description" content="Interactive empirical concordance linking patent technology classes (CPC) to trademark product and service classifications (Nice subclasses) from 'A concordance between patent and trademark classes to link technologies to markets' (Nature Scientific Data 2026).">
+  <link rel="stylesheet" href="style.css?v=20260930b">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script>
+    (function() {
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme) {
+        document.documentElement.setAttribute('data-theme', savedTheme);
+      }
+    })();
+  </script>
+</head>
+<body class="standalone-explorer-page">
+
+  <div class="explorer-modal-window standalone-window" onclick="event.stopPropagation()">
+      
+    <!-- Modal Header -->
+    <div class="modal-exp-header">
+      <div class="exp-header-info">
+        <h2 class="exp-modal-title">PAT2TM: Patent to Trademark Concordance</h2>
+        <p class="exp-modal-sub">41,228 Probabilistic Concordance Links &bull; 656 CPC Technology Classes &bull; 611 Nice Subclasses</p>
+      </div>
+
+      <div class="exp-header-actions">
+        <div class="explorer-tabs">
+          <button id="pat2tm-tab-tech" class="tab-btn pat2tm-tab-btn active" data-mode="tech" onclick="setPat2tmMode('tech')">
+            <svg class="tab-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+            Techs to Markets
+          </button>
+          <button id="pat2tm-tab-market" class="tab-btn pat2tm-tab-btn" data-mode="market" onclick="setPat2tmMode('market')">
+            <svg class="tab-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <path d="M16 10a4 4 0 0 1-8 0"></path>
+            </svg>
+            Markets to Techs
+          </button>
+          <button id="pat2tm-tab-network" class="tab-btn pat2tm-tab-btn" data-mode="network" onclick="setPat2tmMode('network')">
+            <svg class="tab-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="6" cy="6" r="3"></circle>
+              <circle cx="18" cy="6" r="3"></circle>
+              <circle cx="6" cy="18" r="3"></circle>
+              <circle cx="18" cy="18" r="3"></circle>
+              <line x1="8.5" y1="7.5" x2="15.5" y2="16.5"></line>
+              <line x1="8.5" y1="16.5" x2="15.5" y2="7.5"></line>
+            </svg>
+            Concordance Network
+          </button>
+        </div>
+        <a href="index.html" class="btn-back-home" title="Return to Sergio Gabriel Petralia Academic Website">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 12H5M12 19l-7-7 7-7"/>
+          </svg>
+          Profile
+        </a>
+      </div>
+    </div>
+
+    <!-- Stage Container -->
+    <div id="pat2tm-stage" class="modal-exp-stage pat2tm-stage mode-tech">
+      <!-- Injected via pat2tm.js -->
+    </div>
+
+  </div>
+
+  <script src="pat2tm_data.js"></script>
+  <script src="pat2tm.js"></script>
+</body>
+</html>

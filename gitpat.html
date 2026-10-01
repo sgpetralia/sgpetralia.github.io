@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitPat & Open Code Diffusion | Dr. Sergio Gabriel Petralia</title>
+  <meta name="description" content="Empirical data explorer for 'Open Source Software as Digital Platforms to Innovate' by Dr. Sergio Gabriel Petralia (JEBO 2026), linking USPTO patents to GitHub contributions and inventors.">
+  <link rel="stylesheet" href="style.css?v=20260930b">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body class="standalone-explorer-page">
+
+  <div class="explorer-modal-window standalone-window" onclick="event.stopPropagation()">
+      
+    <!-- Modal Header -->
+    <div class="modal-exp-header">
+      <div class="exp-header-info">
+        <h2 class="exp-modal-title">GitPat & Open Code Diffusion</h2>
+        <p class="exp-modal-sub">68,994 Patents Mentioning OSS &bull; 9.8M GitHub Commits &bull; 3,253 Inventors</p>
+      </div>
+
+      <div class="exp-header-actions">
+        <div class="explorer-tabs">
+          <button id="gitpat-tab-projects" class="tab-btn gitpat-tab-btn active" data-mode="projects" onclick="setGitpatMode('projects')">
+            <svg class="tab-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+            </svg>
+            Open Source in Patents
+          </button>
+          <button id="gitpat-tab-firms" class="tab-btn gitpat-tab-btn" data-mode="firms" onclick="setGitpatMode('firms')">
+            <svg class="tab-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+            </svg>
+            Patenting & Contributing
+          </button>
+          <button id="gitpat-tab-inventors" class="tab-btn gitpat-tab-btn" data-mode="inventors" onclick="setGitpatMode('inventors')">
+            <svg class="tab-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+            Inventors
+          </button>
+        </div>
+        <a href="index.html" class="btn-back-home" title="Return to Sergio Gabriel Petralia Academic Website">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 12H5M12 19l-7-7 7-7"/>
+          </svg>
+          Profile
+        </a>
+      </div>
+    </div>
+
+    <!-- Stage Container -->
+    <div id="gitpat-stage" class="modal-exp-stage gitpat-stage mode-projects">
+      <!-- Injected via gitpat.js -->
+    </div>
+
+  </div>
+
+  <script src="gitpat_data.js"></script>
+  <script src="gitpat.js"></script>
+</body>
+</html>

@@ -1,0 +1,2454 @@
+{
+  "summary": {
+    "total_patents_recorded": 3900000,
+    "inventor_records": 4862231,
+    "us_citations": 8550061,
+    "coverage_years": "1836\u20131975"
+  },
+  "decades": [
+    "1840s",
+    "1850s",
+    "1860s",
+    "1870s",
+    "1880s",
+    "1890s",
+    "1900s",
+    "1910s",
+    "1920s",
+    "1930s",
+    "1940s",
+    "1950s",
+    "1960s",
+    "1970s"
+  ],
+  "decades_totals": {
+    "1840s": 5388,
+    "1850s": 19364,
+    "1860s": 70089,
+    "1870s": 120023,
+    "1880s": 182536,
+    "1890s": 199683,
+    "1900s": 270876,
+    "1910s": 344709,
+    "1920s": 371482,
+    "1930s": 386776,
+    "1940s": 284107,
+    "1950s": 383955,
+    "1960s": 477467,
+    "1970s": 321437
+  },
+  "patents_by_decade": {
+    "1840s": {
+      "TN": 34,
+      "NY": 1691,
+      "NJ": 175,
+      "IL": 85,
+      "AL": 51,
+      "SC": 28,
+      "RI": 61,
+      "GA": 34,
+      "CT": 301,
+      "NH": 84,
+      "MD": 199,
+      "LA": 50,
+      "NC": 32,
+      "AR": 1,
+      "VA": 93,
+      "DC": 79,
+      "TX": 4,
+      "KY": 51,
+      "MI": 47,
+      "ME": 88,
+      "MS": 14,
+      "IN": 67,
+      "DE": 25,
+      "WI": 7,
+      "FL": 2,
+      "VT": 104,
+      "IA": 2,
+      "MA": 744,
+      "OH": 409,
+      "PA": 783,
+      "MO": 43
+    },
+    "1850s": {
+      "VT": 311,
+      "IA": 112,
+      "CA": 94,
+      "KS": 3,
+      "DE": 62,
+      "MS": 96,
+      "ME": 252,
+      "WI": 220,
+      "IN": 482,
+      "FL": 14,
+      "OR": 1,
+      "OH": 1544,
+      "MA": 2745,
+      "PA": 2386,
+      "MO": 209,
+      "MN": 11,
+      "VA": 377,
+      "MI": 236,
+      "KY": 198,
+      "DC": 269,
+      "TX": 62,
+      "MD": 406,
+      "LA": 169,
+      "AR": 19,
+      "NC": 90,
+      "WA": 5,
+      "NY": 5473,
+      "SC": 70,
+      "RI": 255,
+      "NJ": 646,
+      "AL": 109,
+      "IL": 696,
+      "GA": 149,
+      "TN": 112,
+      "NH": 355,
+      "CT": 1126
+    },
+    "1860s": {
+      "IA": 1353,
+      "VT": 801,
+      "CA": 1081,
+      "NE": 41,
+      "KS": 115,
+      "ME": 1093,
+      "IN": 2226,
+      "WI": 1594,
+      "MS": 147,
+      "OR": 93,
+      "DE": 159,
+      "FL": 37,
+      "MA": 8303,
+      "PA": 7735,
+      "OH": 5811,
+      "MO": 1056,
+      "MN": 307,
+      "WV": 157,
+      "CO": 45,
+      "MT": 4,
+      "NV": 50,
+      "UT": 4,
+      "SD": 1,
+      "DC": 888,
+      "MI": 2091,
+      "VA": 430,
+      "KY": 567,
+      "TX": 119,
+      "ID": 4,
+      "LA": 383,
+      "MD": 1056,
+      "NC": 132,
+      "AR": 27,
+      "WA": 10,
+      "NY": 18062,
+      "NJ": 2487,
+      "IL": 5091,
+      "GA": 265,
+      "RI": 1089,
+      "AL": 135,
+      "SC": 87,
+      "TN": 293,
+      "CT": 3864,
+      "NH": 796
+    },
+    "1870s": {
+      "TN": 1005,
+      "NY": 26207,
+      "NJ": 4934,
+      "IL": 9215,
+      "RI": 1709,
+      "AL": 425,
+      "SC": 339,
+      "GA": 693,
+      "HI": 4,
+      "CT": 5425,
+      "NH": 1005,
+      "LA": 823,
+      "MD": 2092,
+      "NC": 482,
+      "AR": 206,
+      "WA": 51,
+      "DC": 1444,
+      "KY": 1368,
+      "VA": 966,
+      "TX": 988,
+      "MI": 3704,
+      "WY": 41,
+      "NM": 17,
+      "ID": 10,
+      "IN": 3650,
+      "DE": 358,
+      "ME": 1458,
+      "MS": 482,
+      "WI": 2360,
+      "OR": 245,
+      "FL": 87,
+      "CA": 2924,
+      "KS": 690,
+      "IA": 2950,
+      "NE": 300,
+      "VT": 953,
+      "MA": 12265,
+      "OH": 9186,
+      "PA": 14001,
+      "WV": 439,
+      "MO": 2953,
+      "MN": 1066,
+      "UT": 54,
+      "CO": 220,
+      "NV": 195,
+      "MT": 23,
+      "SD": 6,
+      "AZ": 5
+    },
+    "1880s": {
+      "CT": 7816,
+      "NH": 1334,
+      "NC": 657,
+      "AR": 625,
+      "LA": 905,
+      "MD": 2680,
+      "WA": 228,
+      "TN": 1177,
+      "IL": 15583,
+      "NY": 35878,
+      "NJ": 8303,
+      "GA": 1214,
+      "RI": 2545,
+      "SC": 524,
+      "AL": 637,
+      "HI": 13,
+      "ME": 1457,
+      "IN": 5843,
+      "MS": 530,
+      "OR": 518,
+      "FL": 295,
+      "WI": 3895,
+      "DE": 373,
+      "ND": 9,
+      "MI": 6828,
+      "DC": 1874,
+      "KY": 2138,
+      "VA": 1157,
+      "TX": 2277,
+      "ID": 57,
+      "NM": 99,
+      "WY": 35,
+      "PA": 18766,
+      "MA": 18261,
+      "OH": 14267,
+      "MO": 5846,
+      "MN": 2262,
+      "CO": 1107,
+      "MT": 147,
+      "WV": 664,
+      "UT": 197,
+      "SD": 30,
+      "NV": 157,
+      "AZ": 86,
+      "VT": 969,
+      "IA": 3947,
+      "KS": 2291,
+      "CA": 4984,
+      "NE": 1051
+    },
+    "1890s": {
+      "LA": 1145,
+      "WA": 1008,
+      "MD": 2671,
+      "AR": 874,
+      "NC": 763,
+      "CT": 7520,
+      "NH": 1119,
+      "AK": 1,
+      "NY": 34372,
+      "NJ": 9013,
+      "IL": 19033,
+      "RI": 2251,
+      "AL": 916,
+      "SC": 483,
+      "GA": 1197,
+      "HI": 40,
+      "OK": 129,
+      "TN": 1464,
+      "IA": 4053,
+      "NE": 1738,
+      "KS": 2571,
+      "CA": 6217,
+      "VT": 740,
+      "MA": 17913,
+      "PA": 21199,
+      "OH": 14516,
+      "MO": 7044,
+      "UT": 385,
+      "MT": 685,
+      "CO": 2120,
+      "MN": 3452,
+      "WV": 818,
+      "AZ": 135,
+      "SD": 511,
+      "NV": 108,
+      "MI": 7335,
+      "DC": 1889,
+      "KY": 2043,
+      "TX": 3194,
+      "VA": 1627,
+      "WY": 130,
+      "NM": 133,
+      "ID": 189,
+      "WI": 4946,
+      "IN": 5918,
+      "OR": 825,
+      "DE": 384,
+      "ME": 1357,
+      "MS": 596,
+      "ND": 330,
+      "FL": 583
+    },
+    "1900s": {
+      "MI": 9153,
+      "ID": 485,
+      "DC": 2516,
+      "VA": 2300,
+      "KY": 2613,
+      "TX": 4320,
+      "WY": 253,
+      "NM": 247,
+      "PA": 29734,
+      "OH": 20650,
+      "MA": 18828,
+      "MO": 9251,
+      "MN": 5090,
+      "CO": 3830,
+      "SD": 890,
+      "WV": 1637,
+      "UT": 767,
+      "MT": 895,
+      "AZ": 323,
+      "NV": 179,
+      "WI": 6177,
+      "IN": 7571,
+      "ME": 1416,
+      "DE": 602,
+      "OR": 1551,
+      "FL": 775,
+      "MS": 913,
+      "ND": 857,
+      "CA": 10124,
+      "IA": 6291,
+      "NE": 2576,
+      "KS": 3539,
+      "VT": 742,
+      "TN": 2475,
+      "CT": 7831,
+      "NH": 983,
+      "AK": 47,
+      "NC": 1340,
+      "MD": 3026,
+      "AR": 1087,
+      "WA": 2888,
+      "LA": 1452,
+      "NY": 43651,
+      "GA": 2127,
+      "IL": 28461,
+      "NJ": 12669,
+      "RI": 2622,
+      "OK": 1058,
+      "SC": 649,
+      "AL": 1297,
+      "HI": 118
+    },
+    "1910s": {
+      "VT": 750,
+      "IA": 6908,
+      "CA": 18077,
+      "NE": 3198,
+      "KS": 4259,
+      "DE": 629,
+      "ND": 1539,
+      "WI": 9153,
+      "IN": 8086,
+      "MS": 1002,
+      "FL": 1403,
+      "OR": 3025,
+      "ME": 1386,
+      "NV": 409,
+      "MA": 21450,
+      "MN": 6761,
+      "OH": 24734,
+      "PA": 32762,
+      "MO": 10796,
+      "CO": 4445,
+      "AZ": 773,
+      "UT": 1307,
+      "SD": 1445,
+      "MT": 1526,
+      "WV": 2181,
+      "MI": 12680,
+      "DC": 2882,
+      "KY": 2531,
+      "TX": 6161,
+      "VA": 2837,
+      "ID": 1076,
+      "NM": 516,
+      "WY": 445,
+      "LA": 1834,
+      "AR": 1323,
+      "MD": 3328,
+      "NC": 1777,
+      "WA": 5842,
+      "IL": 37096,
+      "NY": 54640,
+      "GA": 2253,
+      "NJ": 17812,
+      "RI": 2714,
+      "OK": 2871,
+      "AL": 1917,
+      "SC": 945,
+      "HI": 251,
+      "TN": 2193,
+      "CT": 9512,
+      "NH": 1186,
+      "AK": 83
+    },
+    "1920s": {
+      "PA": 32798,
+      "OH": 30043,
+      "MA": 20897,
+      "CO": 3544,
+      "MO": 9818,
+      "MN": 7511,
+      "WV": 2177,
+      "SD": 1025,
+      "UT": 1259,
+      "MT": 1359,
+      "NV": 265,
+      "AZ": 688,
+      "MI": 16543,
+      "TX": 6912,
+      "DC": 3243,
+      "KY": 2161,
+      "VA": 2485,
+      "WY": 575,
+      "ID": 859,
+      "NM": 350,
+      "VT": 631,
+      "CA": 26087,
+      "IA": 5859,
+      "NE": 2685,
+      "KS": 3502,
+      "WI": 10643,
+      "IN": 8572,
+      "ND": 963,
+      "MS": 723,
+      "ME": 1143,
+      "OR": 2759,
+      "FL": 1760,
+      "DE": 730,
+      "NJ": 22174,
+      "IL": 39954,
+      "NY": 60562,
+      "OK": 3294,
+      "GA": 1806,
+      "RI": 2751,
+      "AL": 1501,
+      "SC": 820,
+      "HI": 290,
+      "MD": 3732,
+      "NC": 1611,
+      "WA": 5748,
+      "AR": 981,
+      "LA": 1786,
+      "NH": 1548,
+      "CT": 10050,
+      "AK": 110,
+      "TN": 2195
+    },
+    "1930s": {
+      "CT": 11522,
+      "NH": 1628,
+      "AK": 50,
+      "WA": 3858,
+      "MD": 4534,
+      "NC": 1473,
+      "AR": 523,
+      "LA": 1339,
+      "TN": 2042,
+      "NJ": 30550,
+      "NY": 66815,
+      "IL": 41308,
+      "RI": 2674,
+      "GA": 1423,
+      "HI": 246,
+      "OK": 2949,
+      "AL": 1123,
+      "SC": 559,
+      "WI": 10854,
+      "IN": 10771,
+      "DE": 2342,
+      "MS": 437,
+      "FL": 2206,
+      "OR": 2061,
+      "ND": 315,
+      "ME": 853,
+      "MI": 22941,
+      "TX": 6539,
+      "KY": 1831,
+      "NM": 253,
+      "VA": 2140,
+      "DC": 2901,
+      "WY": 339,
+      "ID": 462,
+      "OH": 34634,
+      "PA": 34042,
+      "MA": 20571,
+      "MO": 8086,
+      "MN": 5630,
+      "MT": 587,
+      "CO": 2289,
+      "WV": 1756,
+      "NV": 170,
+      "UT": 673,
+      "AZ": 542,
+      "SD": 493,
+      "CA": 27446,
+      "VT": 512,
+      "KS": 2115,
+      "IA": 3830,
+      "NE": 1539
+    },
+    "1940s": {
+      "TX": 5790,
+      "MI": 16936,
+      "VA": 2048,
+      "DC": 2136,
+      "ID": 327,
+      "KY": 1088,
+      "WY": 211,
+      "NM": 356,
+      "OH": 24606,
+      "UT": 407,
+      "PA": 22849,
+      "CO": 1450,
+      "MN": 4266,
+      "MO": 5306,
+      "MA": 14516,
+      "WV": 1212,
+      "MT": 358,
+      "SD": 216,
+      "AZ": 367,
+      "NV": 142,
+      "WI": 7351,
+      "ME": 582,
+      "FL": 1845,
+      "IN": 7784,
+      "ND": 196,
+      "DE": 3114,
+      "OR": 1446,
+      "MS": 338,
+      "IA": 2196,
+      "CA": 21655,
+      "VT": 344,
+      "KS": 1376,
+      "NE": 620,
+      "TN": 1462,
+      "CT": 9890,
+      "NH": 734,
+      "AK": 29,
+      "LA": 1301,
+      "WA": 2482,
+      "MD": 3901,
+      "NC": 1168,
+      "AR": 398,
+      "NY": 45766,
+      "GA": 1194,
+      "NJ": 26683,
+      "IL": 29681,
+      "AL": 822,
+      "RI": 1708,
+      "SC": 470,
+      "OK": 2810,
+      "HI": 174
+    },
+    "1950s": {
+      "CT": 12505,
+      "NH": 919,
+      "AK": 95,
+      "MD": 6363,
+      "WA": 4257,
+      "NC": 2389,
+      "LA": 2399,
+      "AR": 631,
+      "TN": 2848,
+      "GA": 1774,
+      "AL": 1514,
+      "IL": 36215,
+      "OK": 5202,
+      "NY": 51656,
+      "NJ": 33962,
+      "HI": 239,
+      "RI": 1932,
+      "SC": 926,
+      "ME": 631,
+      "IN": 10262,
+      "WI": 9966,
+      "OR": 2922,
+      "FL": 3722,
+      "ND": 388,
+      "DE": 3243,
+      "MS": 582,
+      "MI": 23095,
+      "WY": 329,
+      "TX": 10337,
+      "VA": 3384,
+      "DC": 2786,
+      "KY": 1672,
+      "NM": 727,
+      "ID": 614,
+      "MO": 7189,
+      "OH": 31973,
+      "PA": 28755,
+      "MN": 6510,
+      "MA": 16987,
+      "WV": 1542,
+      "CO": 2492,
+      "AZ": 980,
+      "UT": 651,
+      "SD": 407,
+      "NV": 303,
+      "MT": 580,
+      "CA": 37510,
+      "IA": 3686,
+      "KS": 2287,
+      "VT": 528,
+      "NE": 1089
+    },
+    "1960s": {
+      "WA": 4387,
+      "MD": 9782,
+      "LA": 3038,
+      "AR": 732,
+      "NC": 4162,
+      "CT": 16196,
+      "NH": 1400,
+      "AK": 130,
+      "NY": 55569,
+      "OK": 7777,
+      "NJ": 40747,
+      "IL": 40139,
+      "SC": 1646,
+      "GA": 2553,
+      "AL": 2259,
+      "RI": 2161,
+      "HI": 238,
+      "TN": 3892,
+      "VT": 478,
+      "CA": 56210,
+      "IA": 3978,
+      "KS": 2666,
+      "NE": 1085,
+      "PA": 36247,
+      "MO": 7313,
+      "OH": 34499,
+      "UT": 1249,
+      "MN": 8848,
+      "NV": 373,
+      "MA": 20372,
+      "CO": 3073,
+      "SD": 363,
+      "AZ": 2378,
+      "WV": 2420,
+      "MT": 435,
+      "MI": 29293,
+      "NM": 1048,
+      "TX": 16276,
+      "VA": 6301,
+      "KY": 3145,
+      "DC": 1817,
+      "ID": 539,
+      "WY": 314,
+      "DE": 5275,
+      "IN": 12192,
+      "WI": 11117,
+      "OR": 2798,
+      "FL": 6998,
+      "MS": 526,
+      "ND": 385,
+      "ME": 648
+    },
+    "1970s": {
+      "MI": 17907,
+      "VA": 4524,
+      "NM": 702,
+      "TX": 12857,
+      "KY": 2114,
+      "DC": 593,
+      "ID": 485,
+      "WY": 217,
+      "UT": 1351,
+      "OH": 20977,
+      "MN": 6434,
+      "PA": 23636,
+      "MA": 14347,
+      "AZ": 2589,
+      "MO": 4722,
+      "CO": 3353,
+      "NV": 438,
+      "WV": 1043,
+      "SD": 240,
+      "MT": 276,
+      "ME": 432,
+      "WI": 6841,
+      "OR": 2181,
+      "DE": 3612,
+      "IN": 7753,
+      "FL": 6099,
+      "ND": 227,
+      "MS": 510,
+      "CA": 40848,
+      "IA": 2556,
+      "NE": 755,
+      "KS": 1958,
+      "VT": 556,
+      "TN": 2413,
+      "CT": 10527,
+      "AK": 120,
+      "NH": 1214,
+      "MD": 6643,
+      "LA": 2340,
+      "NC": 3460,
+      "WA": 3115,
+      "AR": 572,
+      "NY": 34115,
+      "NJ": 27113,
+      "IL": 24925,
+      "AL": 1664,
+      "GA": 2116,
+      "OK": 4770,
+      "RI": 1329,
+      "SC": 1611,
+      "HI": 257
+    }
+  },
+  "top_counties": {
+    "CA": [
+      "San Francisco",
+      "Sacramento",
+      "Solano"
+    ],
+    "KS": [
+      "Leavenworth",
+      "Shawnee",
+      "Douglas"
+    ],
+    "DC": [
+      "Washington",
+      "District Of Columbia",
+      "Columbia"
+    ],
+    "ID": [
+      "Ada",
+      "Owyhee",
+      "Nez Perces"
+    ],
+    "KY": [
+      "Jefferson",
+      "Kenton",
+      "Campbell"
+    ],
+    "MI": [
+      "Wayne",
+      "Kent",
+      "Kalamazoo"
+    ],
+    "NM": [
+      "Socorro",
+      "San Miguel",
+      "Grant"
+    ],
+    "VA": [
+      "Henrico",
+      "Norfolk",
+      "Augusta"
+    ],
+    "WY": [
+      "Laramie",
+      "Albany",
+      "Uinta"
+    ],
+    "AZ": [
+      "Cochise",
+      "Maricopa",
+      "Yavapai"
+    ],
+    "MN": [
+      "Hennepin",
+      "Ramsey",
+      "St. Louis"
+    ],
+    "OH": [
+      "Cuyahoga",
+      "Hamilton",
+      "Montgomery"
+    ],
+    "UT": [
+      "Salt Lake",
+      "Weber",
+      "Utah"
+    ],
+    "WV": [
+      "Ohio",
+      "Kanawha",
+      "Marion"
+    ],
+    "TN": [
+      "Shelby",
+      "Davidson",
+      "Hamilton"
+    ],
+    "CO": [
+      "Adams",
+      "Arapahoe",
+      "Jefferson"
+    ],
+    "MA": [
+      "Middlesex",
+      "Essex",
+      "Norfolk"
+    ],
+    "MO": [
+      "St. Louis",
+      "Jackson",
+      "Jefferson"
+    ],
+    "MT": [
+      "Musselshell",
+      "Hill",
+      "Liberty"
+    ],
+    "NV": [
+      "Reno",
+      "Clark",
+      "Storey"
+    ],
+    "PA": [
+      "Allegheny",
+      "Lancaster",
+      "Westmoreland"
+    ],
+    "SD": [
+      "Minnehaha",
+      "Hot Springs",
+      "Hyde"
+    ],
+    "FL": [
+      "Marion",
+      "Hillsboro",
+      "Leon"
+    ],
+    "IN": [
+      "Wayne",
+      "Marion",
+      "Floyd"
+    ],
+    "MS": [
+      "Marshall",
+      "Warren",
+      "Yazoo"
+    ],
+    "OR": [
+      "Multnomah",
+      "Marion",
+      "Clackamas"
+    ],
+    "WI": [
+      "Milwaukee",
+      "Rock",
+      "Walworth"
+    ],
+    "TX": [
+      "Dallas",
+      "Harris",
+      "Bexar"
+    ],
+    "AL": [
+      "Jefferson",
+      "Mobile",
+      "Montgomery"
+    ],
+    "HI": [
+      "Honolulu",
+      "Maui",
+      "Kauai"
+    ],
+    "NJ": [
+      "Essex",
+      "Union",
+      "Hudson"
+    ],
+    "NY": [
+      "New York",
+      "Kings",
+      "Bronx"
+    ],
+    "RI": [
+      "Providence",
+      "Kent",
+      "Newport"
+    ],
+    "AR": [
+      "Pulaski",
+      "Benton",
+      "Jefferson"
+    ],
+    "LA": [
+      "Orleans",
+      "Caddo",
+      "Calcasieu"
+    ],
+    "WA": [
+      "King",
+      "Spokane",
+      "Pierce"
+    ],
+    "ND": [
+      "Cass",
+      "Grand Forks",
+      "Ward"
+    ],
+    "MD": [
+      "Baltimore",
+      "Montgomery",
+      "Prince Georges"
+    ],
+    "NC": [
+      "Mecklenburg",
+      "Durham",
+      "Wake"
+    ],
+    "IA": [
+      "Polk",
+      "Scott",
+      "Lee"
+    ],
+    "NE": [
+      "Douglas",
+      "Lancaster",
+      "Dodge"
+    ],
+    "VT": [
+      "Windsor",
+      "Rutland",
+      "Chittenden"
+    ],
+    "DE": [
+      "Brandywine Hundred",
+      "New Castle",
+      "Christiana Hundred"
+    ],
+    "ME": [
+      "Windham",
+      "Oxford",
+      "Hitt"
+    ],
+    "GA": [
+      "Muscogee",
+      "Bibb",
+      "Richmond"
+    ],
+    "IL": [
+      "Cook",
+      "Winnebago",
+      "Knox"
+    ],
+    "SC": [
+      "Charleston",
+      "Anderson",
+      "Barnwell"
+    ],
+    "CT": [
+      "New Haven",
+      "Hartford",
+      "Fairfield"
+    ],
+    "NH": [
+      "Hillsborough",
+      "Merrimack",
+      "Grafton"
+    ],
+    "OK": [
+      "Tulsa",
+      "Oklahoma",
+      "Okmulgee"
+    ],
+    "AK": [
+      "Juneau",
+      "Cochrane",
+      "Ketchikan"
+    ]
+  },
+  "citation_flows": {
+    "AL": [
+      {
+        "target": "NY",
+        "count": 2819
+      },
+      {
+        "target": "CA",
+        "count": 2323
+      },
+      {
+        "target": "IL",
+        "count": 1808
+      },
+      {
+        "target": "PA",
+        "count": 1794
+      },
+      {
+        "target": "OH",
+        "count": 1718
+      },
+      {
+        "target": "NJ",
+        "count": 1500
+      },
+      {
+        "target": "MA",
+        "count": 1045
+      },
+      {
+        "target": "MI",
+        "count": 961
+      }
+    ],
+    "AZ": [
+      {
+        "target": "NY",
+        "count": 3555
+      },
+      {
+        "target": "CA",
+        "count": 3502
+      },
+      {
+        "target": "NJ",
+        "count": 1948
+      },
+      {
+        "target": "IL",
+        "count": 1867
+      },
+      {
+        "target": "PA",
+        "count": 1615
+      },
+      {
+        "target": "OH",
+        "count": 1571
+      },
+      {
+        "target": "MA",
+        "count": 1162
+      },
+      {
+        "target": "MI",
+        "count": 1064
+      }
+    ],
+    "AR": [
+      {
+        "target": "NY",
+        "count": 1104
+      },
+      {
+        "target": "CA",
+        "count": 881
+      },
+      {
+        "target": "IL",
+        "count": 858
+      },
+      {
+        "target": "OH",
+        "count": 645
+      },
+      {
+        "target": "PA",
+        "count": 642
+      }
+    ],
+    "CA": [
+      {
+        "target": "NY",
+        "count": 89149
+      },
+      {
+        "target": "IL",
+        "count": 51544
+      },
+      {
+        "target": "NJ",
+        "count": 49220
+      },
+      {
+        "target": "OH",
+        "count": 43048
+      },
+      {
+        "target": "PA",
+        "count": 42812
+      },
+      {
+        "target": "MA",
+        "count": 28274
+      },
+      {
+        "target": "MI",
+        "count": 27941
+      },
+      {
+        "target": "CT",
+        "count": 18016
+      }
+    ],
+    "CO": [
+      {
+        "target": "NY",
+        "count": 5497
+      },
+      {
+        "target": "CA",
+        "count": 5027
+      },
+      {
+        "target": "IL",
+        "count": 3651
+      },
+      {
+        "target": "OH",
+        "count": 2994
+      },
+      {
+        "target": "NJ",
+        "count": 2732
+      },
+      {
+        "target": "PA",
+        "count": 2709
+      },
+      {
+        "target": "MI",
+        "count": 1846
+      },
+      {
+        "target": "MA",
+        "count": 1757
+      }
+    ],
+    "CT": [
+      {
+        "target": "NY",
+        "count": 30777
+      },
+      {
+        "target": "NJ",
+        "count": 15436
+      },
+      {
+        "target": "IL",
+        "count": 15404
+      },
+      {
+        "target": "OH",
+        "count": 14934
+      },
+      {
+        "target": "PA",
+        "count": 14428
+      },
+      {
+        "target": "CA",
+        "count": 13417
+      },
+      {
+        "target": "MA",
+        "count": 11086
+      },
+      {
+        "target": "MI",
+        "count": 8387
+      }
+    ],
+    "DE": [
+      {
+        "target": "NY",
+        "count": 5610
+      },
+      {
+        "target": "PA",
+        "count": 5360
+      },
+      {
+        "target": "NJ",
+        "count": 5272
+      },
+      {
+        "target": "OH",
+        "count": 3478
+      },
+      {
+        "target": "CA",
+        "count": 2571
+      },
+      {
+        "target": "IL",
+        "count": 2390
+      },
+      {
+        "target": "MA",
+        "count": 1775
+      },
+      {
+        "target": "MI",
+        "count": 1535
+      }
+    ],
+    "DC": [
+      {
+        "target": "NY",
+        "count": 5294
+      },
+      {
+        "target": "NJ",
+        "count": 3096
+      },
+      {
+        "target": "IL",
+        "count": 2247
+      },
+      {
+        "target": "CA",
+        "count": 2144
+      },
+      {
+        "target": "PA",
+        "count": 2041
+      },
+      {
+        "target": "OH",
+        "count": 1721
+      },
+      {
+        "target": "MA",
+        "count": 1595
+      },
+      {
+        "target": "MI",
+        "count": 932
+      }
+    ],
+    "FL": [
+      {
+        "target": "NY",
+        "count": 10871
+      },
+      {
+        "target": "CA",
+        "count": 8716
+      },
+      {
+        "target": "IL",
+        "count": 6921
+      },
+      {
+        "target": "OH",
+        "count": 5651
+      },
+      {
+        "target": "PA",
+        "count": 5149
+      },
+      {
+        "target": "NJ",
+        "count": 4971
+      },
+      {
+        "target": "MI",
+        "count": 3835
+      },
+      {
+        "target": "MA",
+        "count": 3441
+      }
+    ],
+    "GA": [
+      {
+        "target": "NY",
+        "count": 4118
+      },
+      {
+        "target": "IL",
+        "count": 2713
+      },
+      {
+        "target": "CA",
+        "count": 2569
+      },
+      {
+        "target": "PA",
+        "count": 2346
+      },
+      {
+        "target": "OH",
+        "count": 2194
+      },
+      {
+        "target": "NJ",
+        "count": 1863
+      },
+      {
+        "target": "MA",
+        "count": 1683
+      },
+      {
+        "target": "MI",
+        "count": 1340
+      }
+    ],
+    "ID": [
+      {
+        "target": "CA",
+        "count": 904
+      },
+      {
+        "target": "NY",
+        "count": 807
+      },
+      {
+        "target": "IL",
+        "count": 678
+      }
+    ],
+    "IL": [
+      {
+        "target": "NY",
+        "count": 69993
+      },
+      {
+        "target": "OH",
+        "count": 41187
+      },
+      {
+        "target": "CA",
+        "count": 38556
+      },
+      {
+        "target": "PA",
+        "count": 36470
+      },
+      {
+        "target": "NJ",
+        "count": 36405
+      },
+      {
+        "target": "MI",
+        "count": 26881
+      },
+      {
+        "target": "MA",
+        "count": 21553
+      },
+      {
+        "target": "CT",
+        "count": 15115
+      }
+    ],
+    "IN": [
+      {
+        "target": "NY",
+        "count": 18113
+      },
+      {
+        "target": "IL",
+        "count": 15236
+      },
+      {
+        "target": "OH",
+        "count": 13122
+      },
+      {
+        "target": "CA",
+        "count": 10574
+      },
+      {
+        "target": "PA",
+        "count": 10547
+      },
+      {
+        "target": "MI",
+        "count": 10362
+      },
+      {
+        "target": "NJ",
+        "count": 10130
+      },
+      {
+        "target": "MA",
+        "count": 6206
+      }
+    ],
+    "IA": [
+      {
+        "target": "NY",
+        "count": 5772
+      },
+      {
+        "target": "IL",
+        "count": 5753
+      },
+      {
+        "target": "CA",
+        "count": 3993
+      },
+      {
+        "target": "OH",
+        "count": 3946
+      },
+      {
+        "target": "PA",
+        "count": 2895
+      },
+      {
+        "target": "MI",
+        "count": 2644
+      },
+      {
+        "target": "NJ",
+        "count": 2594
+      },
+      {
+        "target": "WI",
+        "count": 1864
+      }
+    ],
+    "KS": [
+      {
+        "target": "NY",
+        "count": 3752
+      },
+      {
+        "target": "IL",
+        "count": 3358
+      },
+      {
+        "target": "CA",
+        "count": 3244
+      },
+      {
+        "target": "OH",
+        "count": 2596
+      },
+      {
+        "target": "PA",
+        "count": 2066
+      },
+      {
+        "target": "MI",
+        "count": 1718
+      },
+      {
+        "target": "NJ",
+        "count": 1708
+      },
+      {
+        "target": "MA",
+        "count": 1212
+      }
+    ],
+    "KY": [
+      {
+        "target": "NY",
+        "count": 4463
+      },
+      {
+        "target": "OH",
+        "count": 3210
+      },
+      {
+        "target": "IL",
+        "count": 3181
+      },
+      {
+        "target": "CA",
+        "count": 2437
+      },
+      {
+        "target": "PA",
+        "count": 2311
+      },
+      {
+        "target": "NJ",
+        "count": 2075
+      },
+      {
+        "target": "MI",
+        "count": 1888
+      },
+      {
+        "target": "MA",
+        "count": 1365
+      }
+    ],
+    "LA": [
+      {
+        "target": "NY",
+        "count": 3677
+      },
+      {
+        "target": "CA",
+        "count": 3541
+      },
+      {
+        "target": "NJ",
+        "count": 3383
+      },
+      {
+        "target": "IL",
+        "count": 2883
+      },
+      {
+        "target": "TX",
+        "count": 2530
+      },
+      {
+        "target": "PA",
+        "count": 2260
+      },
+      {
+        "target": "OH",
+        "count": 1988
+      },
+      {
+        "target": "MI",
+        "count": 1298
+      }
+    ],
+    "ME": [
+      {
+        "target": "NY",
+        "count": 1507
+      },
+      {
+        "target": "MA",
+        "count": 1067
+      },
+      {
+        "target": "IL",
+        "count": 697
+      },
+      {
+        "target": "PA",
+        "count": 679
+      },
+      {
+        "target": "OH",
+        "count": 659
+      },
+      {
+        "target": "CA",
+        "count": 600
+      },
+      {
+        "target": "NJ",
+        "count": 581
+      }
+    ],
+    "MD": [
+      {
+        "target": "NY",
+        "count": 15279
+      },
+      {
+        "target": "NJ",
+        "count": 9184
+      },
+      {
+        "target": "CA",
+        "count": 8945
+      },
+      {
+        "target": "PA",
+        "count": 7700
+      },
+      {
+        "target": "IL",
+        "count": 7261
+      },
+      {
+        "target": "OH",
+        "count": 6588
+      },
+      {
+        "target": "MA",
+        "count": 5152
+      },
+      {
+        "target": "MI",
+        "count": 3664
+      }
+    ],
+    "MA": [
+      {
+        "target": "NY",
+        "count": 44847
+      },
+      {
+        "target": "NJ",
+        "count": 23064
+      },
+      {
+        "target": "PA",
+        "count": 18780
+      },
+      {
+        "target": "CA",
+        "count": 17564
+      },
+      {
+        "target": "IL",
+        "count": 17331
+      },
+      {
+        "target": "OH",
+        "count": 17288
+      },
+      {
+        "target": "CT",
+        "count": 9045
+      },
+      {
+        "target": "MI",
+        "count": 8762
+      }
+    ],
+    "MI": [
+      {
+        "target": "NY",
+        "count": 39183
+      },
+      {
+        "target": "OH",
+        "count": 32720
+      },
+      {
+        "target": "IL",
+        "count": 30154
+      },
+      {
+        "target": "CA",
+        "count": 24050
+      },
+      {
+        "target": "PA",
+        "count": 22949
+      },
+      {
+        "target": "NJ",
+        "count": 19024
+      },
+      {
+        "target": "MA",
+        "count": 13188
+      },
+      {
+        "target": "IN",
+        "count": 11876
+      }
+    ],
+    "MN": [
+      {
+        "target": "NY",
+        "count": 14580
+      },
+      {
+        "target": "IL",
+        "count": 9836
+      },
+      {
+        "target": "CA",
+        "count": 9163
+      },
+      {
+        "target": "OH",
+        "count": 8137
+      },
+      {
+        "target": "PA",
+        "count": 7046
+      },
+      {
+        "target": "NJ",
+        "count": 6772
+      },
+      {
+        "target": "MI",
+        "count": 5034
+      },
+      {
+        "target": "MA",
+        "count": 4762
+      }
+    ],
+    "MS": [
+      {
+        "target": "NY",
+        "count": 912
+      },
+      {
+        "target": "IL",
+        "count": 801
+      },
+      {
+        "target": "CA",
+        "count": 740
+      },
+      {
+        "target": "OH",
+        "count": 524
+      }
+    ],
+    "MO": [
+      {
+        "target": "NY",
+        "count": 12242
+      },
+      {
+        "target": "IL",
+        "count": 9660
+      },
+      {
+        "target": "OH",
+        "count": 8026
+      },
+      {
+        "target": "CA",
+        "count": 7519
+      },
+      {
+        "target": "PA",
+        "count": 7280
+      },
+      {
+        "target": "NJ",
+        "count": 5719
+      },
+      {
+        "target": "MI",
+        "count": 5504
+      },
+      {
+        "target": "MA",
+        "count": 4067
+      }
+    ],
+    "MT": [
+      {
+        "target": "NY",
+        "count": 682
+      },
+      {
+        "target": "CA",
+        "count": 678
+      },
+      {
+        "target": "IL",
+        "count": 641
+      }
+    ],
+    "NE": [
+      {
+        "target": "NY",
+        "count": 1821
+      },
+      {
+        "target": "IL",
+        "count": 1542
+      },
+      {
+        "target": "CA",
+        "count": 1435
+      },
+      {
+        "target": "OH",
+        "count": 1071
+      },
+      {
+        "target": "PA",
+        "count": 974
+      },
+      {
+        "target": "MI",
+        "count": 727
+      },
+      {
+        "target": "NJ",
+        "count": 716
+      },
+      {
+        "target": "MA",
+        "count": 535
+      }
+    ],
+    "NV": [
+      {
+        "target": "NY",
+        "count": 720
+      },
+      {
+        "target": "CA",
+        "count": 590
+      }
+    ],
+    "NH": [
+      {
+        "target": "NY",
+        "count": 2450
+      },
+      {
+        "target": "MA",
+        "count": 1923
+      },
+      {
+        "target": "PA",
+        "count": 1302
+      },
+      {
+        "target": "IL",
+        "count": 1287
+      },
+      {
+        "target": "NJ",
+        "count": 1282
+      },
+      {
+        "target": "OH",
+        "count": 1273
+      },
+      {
+        "target": "CA",
+        "count": 1204
+      },
+      {
+        "target": "CT",
+        "count": 602
+      }
+    ],
+    "NJ": [
+      {
+        "target": "NY",
+        "count": 77934
+      },
+      {
+        "target": "PA",
+        "count": 33797
+      },
+      {
+        "target": "IL",
+        "count": 33135
+      },
+      {
+        "target": "CA",
+        "count": 32084
+      },
+      {
+        "target": "OH",
+        "count": 27765
+      },
+      {
+        "target": "MA",
+        "count": 21487
+      },
+      {
+        "target": "MI",
+        "count": 14733
+      },
+      {
+        "target": "CT",
+        "count": 13282
+      }
+    ],
+    "NM": [
+      {
+        "target": "NY",
+        "count": 1308
+      },
+      {
+        "target": "CA",
+        "count": 1304
+      },
+      {
+        "target": "IL",
+        "count": 809
+      },
+      {
+        "target": "OH",
+        "count": 717
+      },
+      {
+        "target": "NJ",
+        "count": 666
+      },
+      {
+        "target": "PA",
+        "count": 634
+      },
+      {
+        "target": "TX",
+        "count": 531
+      }
+    ],
+    "NY": [
+      {
+        "target": "NJ",
+        "count": 70752
+      },
+      {
+        "target": "IL",
+        "count": 55586
+      },
+      {
+        "target": "PA",
+        "count": 50252
+      },
+      {
+        "target": "CA",
+        "count": 50177
+      },
+      {
+        "target": "OH",
+        "count": 47441
+      },
+      {
+        "target": "MA",
+        "count": 38819
+      },
+      {
+        "target": "MI",
+        "count": 26079
+      },
+      {
+        "target": "CT",
+        "count": 22548
+      }
+    ],
+    "NC": [
+      {
+        "target": "NY",
+        "count": 5919
+      },
+      {
+        "target": "PA",
+        "count": 3672
+      },
+      {
+        "target": "IL",
+        "count": 3371
+      },
+      {
+        "target": "OH",
+        "count": 3121
+      },
+      {
+        "target": "CA",
+        "count": 3090
+      },
+      {
+        "target": "NJ",
+        "count": 3063
+      },
+      {
+        "target": "MA",
+        "count": 2878
+      },
+      {
+        "target": "MI",
+        "count": 1704
+      }
+    ],
+    "OH": [
+      {
+        "target": "NY",
+        "count": 59327
+      },
+      {
+        "target": "IL",
+        "count": 40447
+      },
+      {
+        "target": "PA",
+        "count": 37265
+      },
+      {
+        "target": "CA",
+        "count": 30919
+      },
+      {
+        "target": "NJ",
+        "count": 30735
+      },
+      {
+        "target": "MI",
+        "count": 27622
+      },
+      {
+        "target": "MA",
+        "count": 21472
+      },
+      {
+        "target": "CT",
+        "count": 14907
+      }
+    ],
+    "OK": [
+      {
+        "target": "CA",
+        "count": 10021
+      },
+      {
+        "target": "TX",
+        "count": 8656
+      },
+      {
+        "target": "NY",
+        "count": 7675
+      },
+      {
+        "target": "IL",
+        "count": 6527
+      },
+      {
+        "target": "NJ",
+        "count": 6441
+      },
+      {
+        "target": "PA",
+        "count": 5419
+      },
+      {
+        "target": "OH",
+        "count": 4710
+      },
+      {
+        "target": "MI",
+        "count": 2834
+      }
+    ],
+    "OR": [
+      {
+        "target": "NY",
+        "count": 4740
+      },
+      {
+        "target": "CA",
+        "count": 4280
+      },
+      {
+        "target": "IL",
+        "count": 3502
+      },
+      {
+        "target": "OH",
+        "count": 2853
+      },
+      {
+        "target": "PA",
+        "count": 2605
+      },
+      {
+        "target": "NJ",
+        "count": 1955
+      },
+      {
+        "target": "MI",
+        "count": 1930
+      },
+      {
+        "target": "MA",
+        "count": 1516
+      }
+    ],
+    "PA": [
+      {
+        "target": "NY",
+        "count": 56167
+      },
+      {
+        "target": "NJ",
+        "count": 34859
+      },
+      {
+        "target": "IL",
+        "count": 33080
+      },
+      {
+        "target": "OH",
+        "count": 32546
+      },
+      {
+        "target": "CA",
+        "count": 28103
+      },
+      {
+        "target": "MA",
+        "count": 20125
+      },
+      {
+        "target": "MI",
+        "count": 17247
+      },
+      {
+        "target": "CT",
+        "count": 12453
+      }
+    ],
+    "RI": [
+      {
+        "target": "NY",
+        "count": 3895
+      },
+      {
+        "target": "MA",
+        "count": 2548
+      },
+      {
+        "target": "OH",
+        "count": 2139
+      },
+      {
+        "target": "IL",
+        "count": 2031
+      },
+      {
+        "target": "PA",
+        "count": 2017
+      },
+      {
+        "target": "NJ",
+        "count": 1935
+      },
+      {
+        "target": "CA",
+        "count": 1444
+      },
+      {
+        "target": "CT",
+        "count": 1143
+      }
+    ],
+    "SC": [
+      {
+        "target": "NY",
+        "count": 2166
+      },
+      {
+        "target": "MA",
+        "count": 1692
+      },
+      {
+        "target": "OH",
+        "count": 1454
+      },
+      {
+        "target": "PA",
+        "count": 1390
+      },
+      {
+        "target": "NJ",
+        "count": 1255
+      },
+      {
+        "target": "IL",
+        "count": 1242
+      },
+      {
+        "target": "CA",
+        "count": 1177
+      },
+      {
+        "target": "MI",
+        "count": 687
+      }
+    ],
+    "SD": [
+      {
+        "target": "NY",
+        "count": 550
+      }
+    ],
+    "TN": [
+      {
+        "target": "NY",
+        "count": 5472
+      },
+      {
+        "target": "IL",
+        "count": 3420
+      },
+      {
+        "target": "PA",
+        "count": 3275
+      },
+      {
+        "target": "OH",
+        "count": 3220
+      },
+      {
+        "target": "CA",
+        "count": 3032
+      },
+      {
+        "target": "NJ",
+        "count": 2795
+      },
+      {
+        "target": "MI",
+        "count": 1774
+      },
+      {
+        "target": "MA",
+        "count": 1714
+      }
+    ],
+    "TX": [
+      {
+        "target": "CA",
+        "count": 26463
+      },
+      {
+        "target": "NY",
+        "count": 17983
+      },
+      {
+        "target": "IL",
+        "count": 12815
+      },
+      {
+        "target": "PA",
+        "count": 12148
+      },
+      {
+        "target": "NJ",
+        "count": 11722
+      },
+      {
+        "target": "OK",
+        "count": 11308
+      },
+      {
+        "target": "OH",
+        "count": 10725
+      },
+      {
+        "target": "MI",
+        "count": 6695
+      }
+    ],
+    "UT": [
+      {
+        "target": "NY",
+        "count": 1938
+      },
+      {
+        "target": "CA",
+        "count": 1819
+      },
+      {
+        "target": "IL",
+        "count": 1279
+      },
+      {
+        "target": "PA",
+        "count": 1073
+      },
+      {
+        "target": "OH",
+        "count": 1039
+      },
+      {
+        "target": "NJ",
+        "count": 879
+      },
+      {
+        "target": "MI",
+        "count": 669
+      },
+      {
+        "target": "MA",
+        "count": 590
+      }
+    ],
+    "VT": [
+      {
+        "target": "NY",
+        "count": 1189
+      },
+      {
+        "target": "OH",
+        "count": 657
+      },
+      {
+        "target": "MA",
+        "count": 652
+      },
+      {
+        "target": "IL",
+        "count": 579
+      },
+      {
+        "target": "PA",
+        "count": 541
+      }
+    ],
+    "VA": [
+      {
+        "target": "NY",
+        "count": 9277
+      },
+      {
+        "target": "CA",
+        "count": 5656
+      },
+      {
+        "target": "PA",
+        "count": 4998
+      },
+      {
+        "target": "NJ",
+        "count": 4859
+      },
+      {
+        "target": "IL",
+        "count": 4777
+      },
+      {
+        "target": "OH",
+        "count": 4519
+      },
+      {
+        "target": "MA",
+        "count": 3189
+      },
+      {
+        "target": "MI",
+        "count": 2534
+      }
+    ],
+    "WA": [
+      {
+        "target": "NY",
+        "count": 7269
+      },
+      {
+        "target": "CA",
+        "count": 6594
+      },
+      {
+        "target": "IL",
+        "count": 5005
+      },
+      {
+        "target": "OH",
+        "count": 4255
+      },
+      {
+        "target": "PA",
+        "count": 3874
+      },
+      {
+        "target": "NJ",
+        "count": 3234
+      },
+      {
+        "target": "MI",
+        "count": 2934
+      },
+      {
+        "target": "MA",
+        "count": 2504
+      }
+    ],
+    "WV": [
+      {
+        "target": "NY",
+        "count": 2608
+      },
+      {
+        "target": "OH",
+        "count": 2034
+      },
+      {
+        "target": "PA",
+        "count": 1916
+      },
+      {
+        "target": "IL",
+        "count": 1642
+      },
+      {
+        "target": "NJ",
+        "count": 1599
+      },
+      {
+        "target": "CA",
+        "count": 1488
+      },
+      {
+        "target": "DE",
+        "count": 836
+      },
+      {
+        "target": "MI",
+        "count": 805
+      }
+    ],
+    "WI": [
+      {
+        "target": "NY",
+        "count": 18210
+      },
+      {
+        "target": "IL",
+        "count": 14914
+      },
+      {
+        "target": "OH",
+        "count": 12538
+      },
+      {
+        "target": "PA",
+        "count": 10744
+      },
+      {
+        "target": "CA",
+        "count": 10539
+      },
+      {
+        "target": "MI",
+        "count": 8404
+      },
+      {
+        "target": "NJ",
+        "count": 8291
+      },
+      {
+        "target": "MA",
+        "count": 6806
+      }
+    ]
+  }
+}
