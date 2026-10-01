@@ -511,6 +511,16 @@ function setExplorerMode(mode) {
 
     if (isPlaying) togglePlayDecades();
     clearFlowArcs();
+
+    const curDec = NETWORK_DECADES[currentNetworkDecadeIndex] || '1920s';
+    const netLbl = document.getElementById('net-decade-label');
+    if (netLbl) netLbl.textContent = curDec;
+
+    const ticks = document.querySelectorAll('.net-decade-ticks span');
+    ticks.forEach((t, i) => {
+      t.classList.toggle('active-tick', i === currentNetworkDecadeIndex);
+    });
+
     renderFirmTiles();
     renderNetworkGraph();
   }
