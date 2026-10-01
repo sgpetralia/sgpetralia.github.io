@@ -609,64 +609,7 @@
 
   
   
-    <!-- ATLAS AI Interactive Explorer Modal -->
-  <div id="atlas-ai-modal" class="explorer-modal-backdrop" onclick="closeAtlasAiModal(event)">
-    <div class="explorer-modal-window" onclick="event.stopPropagation()">
-      
-      <!-- Modal Header -->
-      <div class="modal-exp-header">
-        <div class="exp-header-info">
-          <h2 class="exp-modal-title">ATLAS AI: Task Atlas of Science & Technology</h2>
-          <p class="exp-modal-sub">190 Million Tasks &bull; 20,000 Clusters &bull; USPTO Utility Patents &bull; OpenAlex Scientific Articles</p>
-        </div>
-
-        <div class="exp-header-actions">
-          <div class="explorer-tabs">
-            <button id="atlas-modal-tab-tech" class="tab-btn atlas-tab-btn active" data-domain="tech" onclick="setAtlasDomain('tech')">
-              <svg class="tab-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
-              </svg>
-              Technology Tasks (Patents)
-            </button>
-            <button id="atlas-modal-tab-science" class="tab-btn atlas-tab-btn" data-domain="science" onclick="setAtlasDomain('science')">
-              <svg class="tab-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
-                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
-              </svg>
-              Scientific Tasks (Papers)
-            </button>
-          </div>
-
-          <a href="atlas_ai.html" target="_blank" rel="noopener noreferrer" class="btn-modal-action" title="Open in dedicated tab">
-            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-              <polyline points="15 3 21 3 21 9"></polyline>
-              <line x1="10" y1="14" x2="21" y2="3"></line>
-            </svg>
-            Full View
-          </a>
-
-          <button class="btn-close-modal" onclick="closeAtlasAiModal(event)" title="Close Explorer (Esc)">&times;</button>
-        </div>
-      </div>
-
-      <!-- Explorer Stage Container -->
-      <div id="atlas-stage" class="modal-exp-stage atlas-stage">
-        <!-- Injected via atlas_ai.js -->
-      </div>
-
-      <!-- Modal Footer -->
-      <div class="modal-exp-footer">
-        <div class="exp-footer-left">
-          <span class="exp-footer-badge">Dr. Sergio Gabriel Petralia</span>
-          <span class="exp-footer-text">Assistant Professor (tenured) at Utrecht University</span>
-        </div>
-        <div class="exp-footer-right">
-          <span class="exp-dataset-note">Corpus: 35.9M Inventor Tasks (USPTO) &bull; 153.2M Author Tasks (OpenAlex) &bull; 9.3M Matched AI Tasks</span>
-        </div>
-      </div>
-
-    </div>
+    
   </div>
 
   <!-- CLEARPAT FULLSCREEN INTERACTIVE EXPLORER MODAL -->
@@ -1033,8 +976,5 @@
   <script src="gitpat.js?v=20260930"></script>
   <script src="pat2tm_data.js"></script>
   <script src="pat2tm.js?v=20260930"></script>
-  <!-- ATLAS AI (preserved for later integration, standalone at atlas_ai.html) -->
-  <!-- <script src="atlas_ai_data.js"></script> -->
-  <!-- <script src="atlas_ai.js"></script> -->
 </body>
 </html>
