@@ -1161,7 +1161,7 @@ function renderFirmTiles() {
         <span class="firm-tile-patents">${firm.total_patents.toLocaleString()} pat</span>
       </div>
       <div class="firm-tile-meta">
-        <span>📍 ${firm.short_geo || firm.full_geo}</span> &bull; <strong>${firm.inventor_count}</strong> Inventors
+        <span>📍 ${firm.short_geo || firm.full_geo || "United States"}</span> &bull; <strong>${firm.inventor_count || (firm.nodes ? firm.nodes.length : 0)}</strong> Inventors
       </div>
     `;
 
@@ -1281,7 +1281,7 @@ function renderNetworkGraph() {
     // Tooltip
     const title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
     title.textContent = `${node.name}
-📍 Entire Geo: ${node.full_geo}
+📍 Entire Geo: ${node.full_geo || node.short_geo || "United States"}
 Patents for ${firm.name}: ${node.patents}`;
     g.appendChild(title);
 
@@ -1388,7 +1388,7 @@ function selectNetworkNode(nodeId) {
     titleEl.style.display = 'block';
   }
   if (subEl) {
-    subEl.textContent = `${firm.name} • ${node.short_geo || node.state_abbr}`;
+    subEl.textContent = `${firm.name} • ${node.short_geo || node.state_abbr || "US"}`;
     subEl.style.display = 'block';
   }
 
@@ -1400,7 +1400,7 @@ function selectNetworkNode(nodeId) {
     metricsEl.innerHTML = `
       <div class="geo-info-row">
         <span style="font-size: 1rem;">📍</span>
-        <div>${node.full_geo}</div>
+        <div>${node.full_geo || node.short_geo || "United States"}</div>
       </div>
       <div><strong>Patents with ${firm.name}:</strong> ${node.patents.toLocaleString()} utility patents (${decade})</div>
       <div><strong>Co-Inventors:</strong> ${connectedEdges.length} collaborative partners</div>
@@ -1430,7 +1430,7 @@ function selectNetworkNode(nodeId) {
           ev.stopPropagation();
           selectNetworkNode(partnerNode.id);
         };
-        pill.innerHTML = `<strong>${partnerNode.name}</strong> <span>(${e.joint_patents} joint)</span> &bull; <small>${partnerNode.short_geo}</small>`;
+        pill.innerHTML = `<strong>${partnerNode.name}</strong> <span>(${e.joint_patents} joint)</span> &bull; <small>${partnerNode.short_geo || partnerNode.state_abbr || "US"}</small>`;
         pillsEl.appendChild(pill);
       }
     });
@@ -1472,7 +1472,7 @@ function displayFirmOverview(firm) {
       ev.stopPropagation();
       selectNetworkNode(n.id);
     };
-    pill.innerHTML = `<strong>${n.name}</strong> <span>(${n.patents} pat)</span> • <small>${n.short_geo}</small>`;
+    pill.innerHTML = `<strong>${n.name}</strong> <span>(${n.patents} pat)</span> • <small>${n.short_geo || n.state_abbr || "US"}</small>`;
     pillsEl.appendChild(pill);
   });
 
