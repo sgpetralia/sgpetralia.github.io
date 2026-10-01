@@ -3738,7 +3738,7 @@ body.standalone-explorer-page {
 
 
 
-/* Tab 2: Patenting & Contributing Layout */
+/* Tab 2: Corporate OSS & Patents Layout */
 .gitpat-stage.mode-firms {
   grid-template-columns: 280px 1fr !important;
   gap: 1.25rem !important;
